@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NADS — Traffic analytics, attack distribution charts and top attacking sources">
+  <title>NADS — Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'"
+  >
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </noscript>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <noscript>
+    <div>
+      <strong style="color:#f85149;">&#9888; JavaScript is required.</strong>
+      Enable JavaScript to view analytics charts.
+    </div>
+  </noscript>
+
+  <div class="matrix-bg"></div>
+
+  <div class="page-wrapper">
+
+    <nav class="navbar">
+      <a href="/" class="nav-brand">
+        <span class="nav-logo">&#9672;</span>
+        <div class="nav-name">
+          <span class="nav-title">NADS</span>
+          <span class="nav-sub">Network Anomaly Detection System</span>
+        </div>
+      </a>
+      <div class="nav-sep"></div>
+      <ul class="nav-links">
+        <li><a href="/"          class="nav-link">HOME</a></li>
+        <li><a href="/alerts"    class="nav-link">[!] Alerts</a></li>
+        <li><a href="/logs"      class="nav-link">[LOG] Logs</a></li>
+        <li><a href="/analytics" class="nav-link active">[DATA] Analytics</a></li>
+      </ul>
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        <span class="status-label">LIVE</span>
+        <span id="clock" class="nav-clock">--:--:--</span>
+      </div>
+    </nav>
+
+    <main class="main-content">
+
+      <div class="page-header">
+        <h1 class="page-title"><span class="pre">[DATA]</span> ANALYTICS</h1>
+        <p class="page-sub">Traffic volume, attack type distribution, and top attacking source IPs</p>
+      </div>
+
+      <div class="grid col-3 mb-4">
+        <div class="card stat-mini accent-red">
+          <div class="stat-mini-val" id="sum-dos">0</div>
+          <div class="stat-mini-label">DoS Events</div>
+        </div>
+        <div class="card stat-mini accent-orange">
+          <div class="stat-mini-val" id="sum-port">0</div>
+          <div class="stat-mini-label">Port Scans</div>
+        </div>
+        <div class="card stat-mini accent-purple">
+          <div class="stat-mini-val" id="sum-ml">0</div>
+          <div class="stat-mini-label">ML Anomalies</div>
+        </div>
+      </div>
+
+      <div class="grid col-3 mb-4">
+        <div class="card stat-mini accent-blue">
+          <div class="stat-mini-val" id="sum-payload">0</div>
+          <div class="stat-mini-label">Payload Alerts</div>
+        </div>
+        <div class="card stat-mini accent-green">
+          <div class="stat-mini-val" id="sum-total">0</div>
+          <div class="stat-mini-label">Total Events</div>
+        </div>
+        <div class="card stat-mini">
+          <div class="stat-mini-val" id="sum-blocked">0</div>
+          <div class="stat-mini-label">IPs Blocked</div>
+        </div>
+      </div>
+
+      <div class="grid col-2 mb-4">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Attack Distribution</span>
+            <span class="badge badge-blue">CUMULATIVE</span>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="barChart"></canvas>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Packets / Second</span>
+            <span class="badge badge-green">LIVE</span>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="lineChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Top Attacking Sources</span>
+          <span class="badge badge-orange">RANKED</span>
+        </div>
+        <ul id="topIPs">
+          <li class="text-muted text-sm">Loading IP data...</li>
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <!--
+    Chart.js must load before script.js.
+    onerror keeps the page alive if CDN fails — script.js checks
+    `typeof Chart !== 'undefined'` before touching it.
+  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"
+    onerror="console.warn('[NADS] Chart.js CDN failed — charts disabled.')">
+  </script>
+  <script>
+    (function () {
+      'use strict';
+      try {
+        if (typeof Chart !== 'undefined') {
+          Chart.defaults.color                       = '#8b949e';
+          Chart.defaults.borderColor                 = '#30363d';
+          Chart.defaults.font.family                 = "'JetBrains Mono', monospace";
+          Chart.defaults.font.size                   = 11;
+          Chart.defaults.plugins.legend.labels.color = '#8b949e';
+        }
+      } catch (e) {
+        console.warn('[NADS] Chart.js defaults error:', e);
+      }
+    }());
+  </script>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

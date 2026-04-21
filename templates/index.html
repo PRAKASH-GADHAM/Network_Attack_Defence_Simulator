@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NADS — Network Anomaly Detection System real-time overview dashboard">
+  <title>NADS — Overview</title>
+
+  <!--
+    FIX: Google Fonts loaded with media="print" trick — non-blocking.
+    The browser fetches the font in the background and swaps it in
+    without ever blocking the render pipeline. Works with no internet too
+    because the CSS stack falls back to system monospace/sans-serif immediately.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'"
+  >
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    >
+  </noscript>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <noscript>
+    <div>
+      <strong style="color:#f85149;">&#9888; JavaScript is required.</strong>
+      The NADS dashboard needs JavaScript enabled to display live data.
+    </div>
+  </noscript>
+
+  <div class="matrix-bg"></div>
+
+  <div class="page-wrapper">
+
+    <nav class="navbar">
+      <a href="/" class="nav-brand">
+        <span class="nav-logo">&#9672;</span>
+        <div class="nav-name">
+          <span class="nav-title">NADS</span>
+          <span class="nav-sub">Network Anomaly Detection System</span>
+        </div>
+      </a>
+      <div class="nav-sep"></div>
+      <ul class="nav-links">
+        <li><a href="/"          class="nav-link active">HOME</a></li>
+        <li><a href="/alerts"    class="nav-link">[!] Alerts</a></li>
+        <li><a href="/logs"      class="nav-link">[LOG] Logs</a></li>
+        <li><a href="/analytics" class="nav-link">[DATA] Analytics</a></li>
+      </ul>
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        <span class="status-label">LIVE</span>
+        <span id="clock" class="nav-clock">--:--:--</span>
+      </div>
+    </nav>
+
+    <main class="main-content">
+
+      <div class="page-header">
+        <h1 class="page-title"><span class="pre">//</span> OVERVIEW</h1>
+        <p class="page-sub">Real-time network threat monitoring and anomaly detection</p>
+      </div>
+
+      <!-- Status bar — static content renders instantly, no JS needed -->
+      <div class="card status-bar mb-4">
+        <div class="status-bar-inner">
+          <div class="status-bar-item">
+            <span>System</span>
+            <span class="badge badge-green">OPERATIONAL</span>
+          </div>
+          <div class="status-bar-sep"></div>
+          <div class="status-bar-item">
+            <span>Sensor</span>
+            <span class="badge badge-green">CAPTURING</span>
+          </div>
+          <div class="status-bar-sep"></div>
+          <div class="status-bar-item">
+            <span>ML Model</span>
+            <span id="ml-badge" class="badge badge-orange">WARMING UP</span>
+          </div>
+          <div class="status-bar-sep"></div>
+          <div class="status-bar-item">
+            <span>Detection</span>
+            <span class="badge badge-muted">DoS + SCAN + PAYLOAD + ML</span>
+          </div>
+          <div class="status-bar-sep"></div>
+          <div class="status-bar-item">
+            <!-- Hidden until JS confirms demo mode -->
+            <span id="demo-badge" class="badge badge-orange animate-pulse" style="display:none;">DEMO ACTIVE</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stat cards — show 0 immediately, JS fills in real values -->
+      <div class="grid col-4 mb-4">
+        <div class="card stat-mini accent-red">
+          <div class="stat-mini-val" id="stat-alerts">0</div>
+          <div class="stat-mini-label">Alerts Logged</div>
+        </div>
+        <div class="card stat-mini accent-green">
+          <div class="stat-mini-val" id="stat-stats">0</div>
+          <div class="stat-mini-label">Packets Processed</div>
+        </div>
+        <div class="card stat-mini accent-orange">
+          <div class="stat-mini-val" id="stat-blocked">0</div>
+          <div class="stat-mini-label">IPs Blocked</div>
+        </div>
+        <div class="card stat-mini accent-blue">
+          <div class="stat-mini-val" id="stat-queue">0</div>
+          <div class="stat-mini-label">Queue Depth</div>
+        </div>
+      </div>
+
+      <!-- Quick-nav cards — pure HTML, no JS required -->
+      <div class="grid col-3 mb-4">
+        <a href="/alerts" class="card quick-card accent-red">
+          <span class="quick-card-prefix text-red">[!]</span>
+          <span class="quick-card-label">Alerts</span>
+          <span class="quick-card-desc">Active threat events and detections</span>
+        </a>
+        <a href="/logs" class="card quick-card accent-blue">
+          <span class="quick-card-prefix text-blue">[LOG]</span>
+          <span class="quick-card-label">Logs</span>
+          <span class="quick-card-desc">Full event log stream</span>
+        </a>
+        <a href="/analytics" class="card quick-card accent-green">
+          <span class="quick-card-prefix text-green">[DATA]</span>
+          <span class="quick-card-label">Analytics</span>
+          <span class="quick-card-desc">Traffic charts and top attacking IPs</span>
+        </a>
+      </div>
+
+      <!-- Live alerts feed — shows placeholder text until JS fires -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Recent Events</span>
+          <span class="badge badge-red">LIVE FEED</span>
+        </div>
+        <ul id="alerts">
+          <li class="alert-empty">Connecting to event stream...</li>
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <!--
+    FIX: All scripts are at the bottom of body (never in <head>) so
+    the HTML above renders instantly. No defer/async needed because
+    placement at body-end already guarantees DOM is ready.
+
+    Health poll is inline here (lightweight, no dependencies) so
+    the stat counters update even before script.js is parsed.
+  -->
+  <script>
+    /* Inline health refresh — IIFE, zero external deps, never blocks */
+    (function () {
+      'use strict';
+      function setText(id, val) {
+        try {
+          var e = document.getElementById(id);
+          if (e && val != null) e.textContent = val;
+        } catch (_) {}
+      }
+      function poll() {
+        fetch('/health')
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (d) {
+            if (!d) return;
+            setText('stat-alerts',  d.alert_count);
+            setText('stat-stats',   d.stats_count);
+            setText('stat-blocked', d.blocked_ips);
+            setText('stat-queue',   d.queue_depth);
+            try {
+              var b = document.getElementById('ml-badge');
+              if (b && d.ml_trained) {
+                b.textContent = 'TRAINED';
+                b.className   = 'badge badge-green';
+              }
+            } catch (_) {}
+          })
+          .catch(function () {});
+      }
+      poll();
+      setInterval(poll, 5000);
+    }());
+  </script>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

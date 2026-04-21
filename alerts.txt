@@ -1,0 +1,728 @@
+⚠️ DoS Attack Detected from 172.17.240.1
+🚫 Blocked IP: 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🚫 Blocked IP: 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🚫 Blocked IP: 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.56
+🚫 Blocked IP: 185.125.190.56
+🤖 ML Anomaly from 172.17.249.68
+🚫 Blocked IP: 172.17.249.68
+🤖 ML Anomaly from 172.17.249.68
+⚠️ DoS Attack from 172.17.249.68 (21 pkt/5s)
+🚫 Blocked IP: 172.17.249.68
+⚠️ DoS Attack from 185.125.190.83 (21 pkt/5s)
+🚫 Blocked IP: 185.125.190.83
+⚠️ DoS Attack from 185.125.190.75 (21 pkt/5s)
+🚫 Blocked IP: 185.125.190.75
+🤖 ML Anomaly from 208.95.112.1
+🚫 Blocked IP: 208.95.112.1
+⚠️ DoS Attack from 91.189.91.81 (21 pkt/5s)
+🚫 Blocked IP: 91.189.91.81
+🤖 ML Anomaly from 172.17.249.68
+⚠️ DoS Attack from 185.125.190.81 (21 pkt/5s)
+🚫 Blocked IP: 185.125.190.81
+🤖 ML Anomaly from 208.95.112.1
+⚠️ DoS Attack from 185.125.190.24 (21 pkt/5s)
+🚫 Blocked IP: 185.125.190.24
+⚠️ DoS Attack from 91.189.92.24 (21 pkt/5s)
+🚫 Blocked IP: 91.189.92.24
+⚠️ DoS Attack from 185.125.190.75 (21 pkt/5s)
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.58
+🚫 Blocked IP: 185.125.190.58
+⚠️ DoS Attack from 91.189.91.82 (21 pkt/5s)
+🚫 Blocked IP: 91.189.91.82
+⚠️ DoS Attack from 91.189.92.22 (21 pkt/5s)
+🚫 Blocked IP: 91.189.92.22
+🤖 ML Anomaly from 208.95.112.1
+⚠️ DoS Attack from 185.125.190.23 (21 pkt/5s)
+🚫 Blocked IP: 185.125.190.23
+⚠️ DoS Attack from 185.125.190.24 (21 pkt/5s)
+🤖 ML Anomaly from 172.17.240.1
+🚫 Blocked IP: 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.58
+⚠️ DoS Attack from 91.189.92.23 (21 pkt/5s)
+🚫 Blocked IP: 91.189.92.23
+🤖 ML Anomaly from 91.189.91.82
+🤖 ML Anomaly from 91.189.92.22
+🤖 ML Anomaly from 208.95.112.1
+⚠️ DoS Attack from 91.189.91.83 (21 pkt/5s)
+🚫 Blocked IP: 91.189.91.83
+⚠️ DoS Attack from 91.189.91.46 (21 pkt/5s)
+🚫 Blocked IP: 91.189.91.46
+⚠️ DoS Attack from 172.17.249.68 (56 pkt/5s)
+⚠️ DoS Attack from 185.125.190.23 (21 pkt/5s)
+🤖 ML Anomaly from 185.125.190.58
+⚠️ DoS Attack from 172.17.249.68 (21 pkt/5s)
+🤖 ML Anomaly from 185.125.190.58
+🤖 ML Anomaly from 91.189.92.23
+⚠️ DoS Attack from 185.125.190.82 (21 pkt/5s)
+🚫 Blocked IP: 185.125.190.82
+⚠️ DoS Attack from 91.189.91.47 (21 pkt/5s)
+🚫 Blocked IP: 91.189.91.47
+⚠️ DoS Attack from 172.17.249.68 (33 pkt/5s)
+🤖 ML Anomaly from 185.125.190.56
+🚫 Blocked IP: 185.125.190.56
+⚠️ DoS Attack from 91.189.91.46 (21 pkt/5s)
+⚠️ DoS Attack from 91.189.91.83 (21 pkt/5s)
+⚠️ DoS Attack from 172.17.249.68 (21 pkt/5s)
+🤖 ML Anomaly from 185.125.190.56
+🤖 ML Anomaly from 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.56
+⚠️ DoS Attack from 91.189.91.47 (21 pkt/5s)
+🤖 ML Anomaly from 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.56
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🚫 Blocked IP: 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🚫 Blocked IP: 185.125.190.57
+🤖 ML Anomaly from 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.58
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.56
+🤖 ML Anomaly from 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.56
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.58
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🤖 ML Anomaly from 172.17.240.1
+🤖 ML Anomaly from 172.17.240.1
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 91.189.91.157
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.58
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.57
+🤖 ML Anomaly from 172.17.249.68
+🤖 ML Anomaly from 185.125.190.56
+⚠️ DoS Attack from 172.17.249.68 (21 pkt/5s)
+🤖 ML Anomaly from 172.17.240.1
+[!] DoS Attack detected from 203.0.113.42 (24 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (24 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 203.0.113.42 (24 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (14 pkt/5s) [DEMO]
+[!] Suspicious Payload detected from 127.0.0.1
+[!] Port Scan detected from 198.51.100.7 (43 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 127.0.0.1
+[!] DoS Attack detected from 192.168.1.101 (39 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[ML] ML Anomaly detected from 172.17.240.1
+[BLOCK] Blocked IP: 172.17.240.1
+[!] DoS Attack detected from 172.16.0.23 (16 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Port Scan detected from 172.16.0.23 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[ML] ML Anomaly detected from 172.17.240.1
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (32 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (17 pkt/5s)
+[!] Port Scan detected from 172.16.0.23 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (10 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (32 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (39 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (39 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (13 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (16 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (19 pkt/5s)
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (25 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Port Scan detected from 192.168.1.101 (31 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (19 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Port Scan detected from 203.0.113.42 (29 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (38 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (17 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] DoS Attack detected from 172.16.0.23 (32 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (32 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] DoS Attack detected from 198.51.100.7 (13 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (11 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (31 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (44 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (34 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (42 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (40 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (33 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (19 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (23 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (47 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (41 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (49 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (16 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (12 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (21 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (21 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (37 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (30 pkt/5s) [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (22 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 172.16.0.23 (36 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (35 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (38 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (20 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (14 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 10.0.0.55 (26 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[!] DoS Attack detected from 192.168.1.101 (49 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (24 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (41 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (20 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (23 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[!] Port Scan detected from 192.168.1.101 (41 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (28 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (29 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (33 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (39 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (16 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (45 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (15 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (44 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (33 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (50 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (33 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 172.17.240.1
+[BLOCK] Blocked IP: 172.17.240.1
+[!] Port Scan detected from 203.0.113.42 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (34 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (12 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (16 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (34 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (28 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (37 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (26 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (16 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (29 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (17 pkt/5s) [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (50 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 192.168.1.101 (44 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (28 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 172.16.0.23 (26 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (28 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (21 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (50 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (33 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (41 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (35 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 203.0.113.42 (24 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (33 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 198.51.100.7 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (49 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] DoS Attack detected from 172.16.0.23 (32 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (23 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] DoS Attack detected from 172.16.0.23 (12 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (35 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (17 pkt/5s)
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (35 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (27 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (44 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (39 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (43 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (46 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (28 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 198.51.100.7 (39 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (17 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (30 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[!] DoS Attack detected from 10.0.0.55 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (20 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (33 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Port Scan detected from 203.0.113.42 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[ML] ML Anomaly detected from 172.17.240.1
+[BLOCK] Blocked IP: 172.17.240.1
+[!] DoS Attack detected from 10.0.0.55 (14 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (31 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] DoS Attack detected from 198.51.100.7 (49 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (40 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (45 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] Port Scan detected from 198.51.100.7 (30 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[ML] ML Anomaly detected from 127.0.0.1
+[!] DoS Attack detected from 198.51.100.7 (26 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (32 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (33 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (31 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (31 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (39 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (15 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (42 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (19 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (20 pkt/5s) [DEMO]
+[ML] ML Anomaly detected from 172.17.240.1
+[!] Port Scan detected from 198.51.100.7 (34 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (34 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (20 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (30 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 203.0.113.42 (23 ports/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (17 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (15 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (21 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (16 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (41 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (14 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (28 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (12 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (48 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (12 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (17 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (15 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (24 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (11 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (46 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[!] DoS Attack detected from 192.168.1.101 (17 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (13 pkt/5s)
+[!] Port Scan detected from 192.168.1.101 (15 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (35 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (17 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (17 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (18 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (32 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (39 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.17.240.1
+[BLOCK] Blocked IP: 172.17.240.1
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (20 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (17 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (39 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (43 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (26 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (47 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (12 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (33 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (29 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (36 ports/5s) [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (38 pkt/5s) [DEMO]
+[!] DoS Attack detected from 127.0.0.1 (9 pkt/5s)
+[BLOCK] Blocked IP: 127.0.0.1
+[!] Port Scan detected from 10.0.0.55 (46 ports/5s) [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (38 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (47 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (42 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (29 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (47 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (31 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (17 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (47 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (11 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (40 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (22 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (44 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (33 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (48 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (25 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (29 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (43 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (20 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (46 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (25 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (38 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (45 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (20 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (46 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (22 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (30 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (37 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (13 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (29 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (49 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (29 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (40 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (27 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (22 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (43 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (29 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (39 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (49 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (30 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (43 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (37 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (33 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (42 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (44 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (43 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (28 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (13 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (22 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (24 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (30 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (44 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (46 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 172.16.0.23 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (13 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (17 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (16 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (30 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 192.168.1.101 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (22 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (43 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (50 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (42 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (42 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (25 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (34 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (18 pkt/5s) [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (39 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (18 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (27 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (12 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (18 pkt/5s) [DEMO]
+[!] Port Scan detected from 10.0.0.55 (36 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 192.168.1.101 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 198.51.100.7 (15 pkt/5s) [DEMO]
+[!] Port Scan detected from 203.0.113.42 (37 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (38 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (50 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 10.0.0.55 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (22 pkt/5s) [DEMO]
+[!] DoS Attack detected from 10.0.0.55 (20 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (50 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 10.0.0.55 [DEMO]
+[!] DoS Attack detected from 203.0.113.42 (49 pkt/5s) [DEMO]
+[!] Port Scan detected from 172.16.0.23 (10 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 172.16.0.23 [DEMO]
+[!] Suspicious Payload detected from 203.0.113.42 [DEMO]
+[!] DoS Attack detected from 172.16.0.23 (36 pkt/5s) [DEMO]
+[!] Port Scan detected from 198.51.100.7 (47 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 203.0.113.42 [DEMO]
+[!] Suspicious Payload detected from 198.51.100.7 [DEMO]
+[!] DoS Attack detected from 192.168.1.101 (24 pkt/5s) [DEMO]
+[!] Port Scan detected from 192.168.1.101 (26 ports/5s) [DEMO]
+[ML] ML Anomaly detected from 198.51.100.7 [DEMO]

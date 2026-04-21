@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NADS — Active threat alerts and intrusion detection events">
+  <title>NADS — Alerts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'"
+  >
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </noscript>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="page-alerts">
+
+  <noscript>
+    <div>
+      <strong style="color:#f85149;">&#9888; JavaScript is required.</strong>
+      Enable JavaScript to view live alerts.
+    </div>
+  </noscript>
+
+  <div class="matrix-bg"></div>
+
+  <div class="page-wrapper">
+
+    <nav class="navbar">
+      <a href="/" class="nav-brand">
+        <span class="nav-logo">&#9672;</span>
+        <div class="nav-name">
+          <span class="nav-title">NADS</span>
+          <span class="nav-sub">Network Anomaly Detection System</span>
+        </div>
+      </a>
+      <div class="nav-sep"></div>
+      <ul class="nav-links">
+        <li><a href="/"          class="nav-link">HOME</a></li>
+        <li><a href="/alerts"    class="nav-link active">[!] Alerts</a></li>
+        <li><a href="/logs"      class="nav-link">[LOG] Logs</a></li>
+        <li><a href="/analytics" class="nav-link">[DATA] Analytics</a></li>
+      </ul>
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        <span class="status-label">LIVE</span>
+        <span id="clock" class="nav-clock">--:--:--</span>
+      </div>
+    </nav>
+
+    <main class="main-content">
+
+      <div class="page-header">
+        <h1 class="page-title"><span class="pre">[!]</span> ALERTS</h1>
+        <p class="page-sub">Intrusion events, blocked IPs, and anomaly detections — last 50 entries, newest first</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Active Threat Events</span>
+          <span class="badge badge-red">LIVE</span>
+        </div>
+        <ul id="alerts">
+          <li class="alert-empty">Connecting to alert stream...</li>
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

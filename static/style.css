@@ -1,0 +1,730 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: local('Inter'), local('Inter-Regular'), local('system-ui');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: local('JetBrains Mono'), local('Courier New'), local('monospace');
+}
+
+/* ── 1. DESIGN TOKENS ──────────────────────────────────────── */
+:root {
+  --bg-root:    #010409;
+  --bg-base:    #0d1117;
+  --bg-card:    #161b22;
+  --bg-card-hi: #21262d;
+  --bg-overlay: #1c2128;
+
+  --border:     #30363d;
+  --border-sub: #21262d;
+
+  --tx-pri:  #e6edf3;
+  --tx-sec:  #8b949e;
+  --tx-mut:  #6e7681;
+  --tx-code: #7ee787;
+
+  --green:      #3fb950;
+  --green-dk:   #238636;
+  --green-glow: rgba(63, 185, 80, 0.12);
+
+  --blue:      #58a6ff;
+  --blue-dk:   #1f6feb;
+  --blue-glow: rgba(88, 166, 255, 0.12);
+
+  --red:      #f85149;
+  --red-dk:   #b62324;
+  --red-glow: rgba(248, 81, 73, 0.12);
+
+  --orange:      #db6d28;
+  --orange-glow: rgba(219, 109, 40, 0.12);
+
+  --purple:      #bc8cff;
+  --purple-glow: rgba(188, 140, 255, 0.12);
+
+  --sh-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --sh-md: 0 4px 14px rgba(0, 0, 0, 0.4);
+
+  --r-sm: 4px;
+  --r:    6px;
+  --r-lg: 10px;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 20px;
+  --s6: 24px;
+  --s8: 32px;
+
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace;
+
+  --nav-h: 52px;
+}
+
+/* ── 2. RESET ──────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* FIX: prevent horizontal overflow causing blank-looking pages */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+pre {
+  font-family: var(--mono);
+}
+
+body {
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--tx-pri);
+  background: var(--bg-root);
+  min-height: 100vh;
+  /* FIX: ensure body itself never clips content */
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── 3. MATRIX BACKGROUND ─────────────────────────────────── */
+.matrix-bg {
+  position: fixed;
+  inset: 0;
+  /* FIX: explicit z-index so it sits below all content */
+  z-index: 0;
+  overflow: hidden;
+  opacity: 0.055;
+  /* FIX: pointer-events none so it never intercepts clicks */
+  pointer-events: none;
+  /* FIX: isolation so it doesn't create a stacking context
+     that could swallow .page-wrapper children */
+  isolation: isolate;
+}
+
+/* Ensure canvas inside matrix-bg fills its parent */
+.matrix-bg canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* ── 4. PAGE WRAPPER ──────────────────────────────────────── */
+.page-wrapper {
+  position: relative;
+  /* FIX: z-index must be above .matrix-bg (z-index:0) */
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* FIX: isolation creates a new stacking context so child
+     z-indexes are scoped inside .page-wrapper */
+  isolation: isolate;
+}
+
+.page-wrapper::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--green-dk) 0%,
+    var(--blue-dk)  55%,
+    var(--green-dk) 100%
+  );
+  opacity: 0.75;
+  flex-shrink: 0;
+}
+
+/* ── 5. NAVBAR ─────────────────────────────────────────────── */
+.navbar {
+  height: var(--nav-h);
+  background: var(--bg-base);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--s6);
+  gap: var(--s5);
+  position: sticky;
+  top: 0;
+  /* FIX: navbar z-index must be above page content (cards etc.)
+     but below any modal overlays — 10 is sufficient */
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  flex-shrink: 0;
+}
+
+.nav-logo {
+  font-size: 20px;
+  color: var(--green);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.nav-name {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.nav-title {
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--tx-pri);
+  letter-spacing: 0.1em;
+}
+
+.nav-sub {
+  font-size: 10px;
+  color: var(--tx-mut);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.nav-sep {
+  width: 1px;
+  height: 22px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+  /* FIX: allow wrapping on very small viewports instead of overflow */
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: block;
+  padding: 3px var(--s3);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--tx-sec);
+  border-radius: var(--r-sm);
+  border: 1px solid transparent;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--tx-pri);
+  background: var(--bg-card);
+  border-color: var(--border);
+}
+
+.nav-link.active {
+  color: var(--green);
+  background: var(--green-glow);
+  border-color: var(--green-dk);
+}
+
+.nav-status {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  flex-shrink: 0;
+  margin-left: auto;
+  padding-left: var(--s4);
+  border-left: 1px solid var(--border);
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 6px var(--green);
+  animation: blink 2.2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1);    opacity: 0.85; }
+  50%  { transform: scale(1.05); opacity: 1;    }
+  100% { transform: scale(1);    opacity: 0.85; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.status-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--green);
+  letter-spacing: 0.14em;
+}
+
+.nav-clock {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--tx-sec);
+  letter-spacing: 0.05em;
+  min-width: 70px;
+  text-align: right;
+}
+
+/* ── 6. MAIN CONTENT ──────────────────────────────────────── */
+.main-content {
+  flex: 1;
+  padding: var(--s6);
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  /* FIX: ensure this section is always block-level and visible */
+  display: block;
+  /* FIX: min-height so content area never collapses to zero */
+  min-height: calc(100vh - var(--nav-h) - 2px);
+}
+
+/* ── 7. PAGE HEADER ───────────────────────────────────────── */
+.page-header {
+  margin-bottom: var(--s6);
+  padding-bottom: var(--s4);
+  border-bottom: 1px solid var(--border-sub);
+}
+
+.page-title {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx-sec);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page-title .pre {
+  color: var(--green);
+  margin-right: var(--s2);
+}
+
+.page-sub {
+  font-size: 12px;
+  color: var(--tx-mut);
+  margin-top: var(--s1);
+}
+
+/* ── 8. SPACING UTILITIES ─────────────────────────────────── */
+.mb-2 { margin-bottom: var(--s2); }
+.mb-3 { margin-bottom: var(--s3); }
+.mb-4 { margin-bottom: var(--s4); }
+.mb-6 { margin-bottom: var(--s6); }
+.mt-2 { margin-top: var(--s2); }
+.mt-4 { margin-top: var(--s4); }
+
+/* ── 9. GRID SYSTEM ───────────────────────────────────────── */
+.grid {
+  display: grid;
+  gap: var(--s4);
+}
+
+.col-4 { grid-template-columns: repeat(4, 1fr); }
+.col-3 { grid-template-columns: repeat(3, 1fr); }
+.col-2 { grid-template-columns: repeat(2, 1fr); }
+
+@media (max-width: 1100px) {
+  .col-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 750px) {
+  .col-4,
+  .col-3,
+  .col-2 { grid-template-columns: 1fr; }
+}
+
+/* ── 10. CARD ─────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: var(--s5);
+  box-shadow: var(--sh-sm);
+  /* FIX: ensure cards are always block-level visible elements */
+  display: block;
+  /* FIX: contain overflow so inner content doesn't bleed out */
+  overflow: hidden;
+}
+
+/* Accent left borders */
+.accent-green  { border-left: 3px solid var(--green); }
+.accent-blue   { border-left: 3px solid var(--blue); }
+.accent-red    { border-left: 3px solid var(--red); }
+.accent-orange { border-left: 3px solid var(--orange); }
+.accent-purple { border-left: 3px solid var(--purple); }
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--s4);
+  padding-bottom: var(--s3);
+  border-bottom: 1px solid var(--border-sub);
+  /* FIX: never allow header to collapse */
+  flex-shrink: 0;
+}
+
+.card-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--tx-sec);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ── 11. BADGES / PILLS ───────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 1px solid;
+  /* FIX: vertical-align so badges sit correctly inline */
+  vertical-align: middle;
+}
+
+.badge-green  { color: var(--green);  background: var(--green-glow);  border-color: var(--green-dk); }
+.badge-blue   { color: var(--blue);   background: var(--blue-glow);   border-color: var(--blue-dk); }
+.badge-red    { color: var(--red);    background: var(--red-glow);    border-color: var(--red-dk); }
+.badge-orange { color: var(--orange); background: var(--orange-glow); border-color: rgba(219, 109, 40, .45); }
+.badge-purple { color: var(--purple); background: var(--purple-glow); border-color: rgba(188, 140, 255, .45); }
+.badge-muted  { color: var(--tx-mut); background: var(--bg-card-hi);  border-color: var(--border); }
+
+/* ── 12. STATUS BAR (index page) ──────────────────────────── */
+.status-bar {
+  padding: var(--s3) var(--s5);
+  /* FIX: override .card overflow:hidden so inner flex doesn't get clipped */
+  overflow: visible;
+}
+
+.status-bar-inner {
+  display: flex;
+  align-items: center;
+  gap: var(--s5);
+  flex-wrap: wrap;
+}
+
+.status-bar-item {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--tx-mut);
+  white-space: nowrap;
+}
+
+.status-bar-sep {
+  width: 1px;
+  height: 16px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+/* ── 13. STAT MINI CARDS ──────────────────────────────────── */
+.stat-mini {
+  padding: var(--s4) var(--s5);
+}
+
+.stat-mini-val {
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--tx-pri);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  /* FIX: no overflow hidden — value must always be readable */
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.stat-mini-label {
+  font-size: 11px;
+  color: var(--tx-mut);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-top: var(--s2);
+}
+
+/* ── 14. QUICK NAV CARDS (index page) ─────────────────────── */
+.quick-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+  padding: var(--s4) var(--s5);
+  /* FIX: must be visible by default — JS is not required for layout */
+  overflow: visible;
+  transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.12s ease;
+}
+
+.quick-card:hover {
+  background: var(--bg-card-hi);
+  transform: translateY(-2px);
+}
+
+.quick-card.accent-green:hover  { box-shadow: 0 0 0 1px var(--green-dk), var(--sh-sm); }
+.quick-card.accent-blue:hover   { box-shadow: 0 0 0 1px var(--blue-dk), var(--sh-sm); }
+.quick-card.accent-red:hover    { box-shadow: 0 0 0 1px var(--red-dk), var(--sh-sm); }
+.quick-card.accent-purple:hover { box-shadow: 0 0 0 1px rgba(188, 140, 255, .5), var(--sh-sm); }
+
+.quick-card-prefix {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.quick-card-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tx-pri);
+}
+
+.quick-card-desc {
+  font-size: 12px;
+  color: var(--tx-mut);
+}
+
+/* ── 15. ALERTS LIST ──────────────────────────────────────── */
+#alerts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  /* FIX: max-height + scroll so the card never grows unbounded */
+  max-height: 480px;
+  overflow-y: auto;
+  /* FIX: min-height so the list area is always visible even when empty */
+  min-height: 48px;
+  padding-right: 2px;
+}
+
+#alerts li {
+  padding: var(--s3) var(--s4);
+  background: var(--bg-card-hi);
+  border: 1px solid var(--border-sub);
+  border-left: 3px solid var(--red);
+  border-radius: var(--r-sm);
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--tx-pri);
+  line-height: 1.5;
+  word-break: break-all;
+  /* FIX: ensure list items are visible immediately */
+  display: block;
+  transition: background 0.1s ease;
+}
+
+#alerts li:hover {
+  background: var(--bg-overlay);
+}
+
+#alerts li.alert-empty {
+  border-left-color: var(--border-sub);
+  color: var(--tx-mut);
+  font-style: italic;
+}
+
+/* Alert type-specific border colors (set via data-type in script.js) */
+#alerts li[data-type="dos"]     { border-left-color: var(--red); }
+#alerts li[data-type="blocked"] { border-left-color: var(--red); }
+#alerts li[data-type="port"]    { border-left-color: var(--orange); }
+#alerts li[data-type="ml"]      { border-left-color: var(--purple); }
+#alerts li[data-type="payload"] { border-left-color: var(--blue); }
+#alerts li[data-type="normal"]  { border-left-color: var(--border); }
+
+/* Dedicated alerts page: expand to fill viewport */
+.page-alerts #alerts {
+  max-height: calc(100vh - 240px);
+  min-height: 200px;
+}
+
+/* ── 16. LOGS VIEWER ──────────────────────────────────────── */
+#logs {
+  display: block;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--tx-code);
+  background: var(--bg-root);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: var(--s5);
+  /* FIX: explicit height with scroll — never collapsed */
+  height: 560px;
+  min-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1.8;
+  /* FIX: ensure text is always legible even before JS populates it */
+  color: var(--tx-code);
+}
+
+.page-logs #logs {
+  height: calc(100vh - 240px);
+  min-height: 300px;
+}
+
+/* ── 17. TOP IPs LIST ─────────────────────────────────────── */
+#topIPs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  /* FIX: min-height so the container is always visible */
+  min-height: 40px;
+}
+
+#topIPs li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--s2) var(--s3);
+  background: var(--bg-card-hi);
+  border: 1px solid var(--border-sub);
+  border-radius: var(--r-sm);
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--tx-pri);
+}
+
+.top-ip-left {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.top-ip-rank {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--tx-mut);
+  min-width: 20px;
+  text-align: right;
+}
+
+/* ── 18. CHART CONTAINERS ─────────────────────────────────── */
+.chart-wrap {
+  position: relative;
+  width: 100%;
+  /* FIX: explicit min-height so the canvas area is always reserved
+     and Chart.js has a non-zero container to render into */
+  min-height: 280px;
+  height: 280px;
+}
+
+/* FIX: canvas must fill its wrapper — Chart.js needs this */
+.chart-wrap canvas {
+  display: block;
+  width: 100% !important;
+  max-width: 100%;
+}
+
+/* ── 19. SCROLLBARS ───────────────────────────────────────── */
+::-webkit-scrollbar       { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--tx-mut); }
+
+/* ── 20. TEXT UTILITIES ───────────────────────────────────── */
+.text-green  { color: var(--green); }
+.text-blue   { color: var(--blue); }
+.text-red    { color: var(--red); }
+.text-orange { color: var(--orange); }
+.text-purple { color: var(--purple); }
+.text-muted  { color: var(--tx-mut); }
+.text-sec    { color: var(--tx-sec); }
+.text-mono   { font-family: var(--mono); }
+.text-sm     { font-size: 12px; }
+.text-xs     { font-size: 11px; }
+
+/* ── 21. SELECTION & FOCUS ────────────────────────────────── */
+::selection {
+  background: var(--blue-glow);
+  color: var(--tx-pri);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* ── 22. NO-JS FALLBACK ───────────────────────────────────── */
+/* When JavaScript is disabled the page still shows static content.
+   All structural elements (navbar, cards, headers) are visible by default.
+   Only dynamic list content shows a "no JS" hint via noscript. */
+noscript div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* FIX: z-index above everything so the no-JS message is always seen */
+  z-index: 9999;
+  padding: var(--s5);
+  background: var(--bg-card);
+  border-bottom: 2px solid var(--green-dk);
+  text-align: center;
+}
+
+/* ── 23. PRINT — hide decorative / interactive elements ────── */
+@media print {
+  .matrix-bg,
+  .nav-status,
+  .status-dot { display: none !important; }
+
+  .page-wrapper { background: white; color: black; }
+  .navbar       { position: static; }
+  .main-content { padding: 0; }
+}
+
